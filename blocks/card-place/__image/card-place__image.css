@@ -1,0 +1,26 @@
+.card-place__image {
+  max-width: 460px;
+  width: 100%;
+  grid-area: img;
+}
+
+@media screen and (max-width: 1279px) {
+  .card-place__image {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .card-place__image {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-place__image {
+    display: block;
+    max-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+}

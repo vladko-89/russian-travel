@@ -1,0 +1,5 @@
+.card-place__website {
+  margin: 0;
+  grid-area: web;
+  align-self: flex-end;
+}

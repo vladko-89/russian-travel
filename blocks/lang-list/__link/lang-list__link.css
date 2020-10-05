@@ -1,0 +1,15 @@
+.lang-list__link {
+  font-family: "Inter", Arial, san-serif;
+  font-size: 1.5rem;
+  line-height: 1.17;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .lang-list__link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,9 @@
+.main-nav__item:nth-child(2n) {
+  margin: 0 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .main-nav__item:nth-child(2n) {
+    margin: 2rem 0;
+  }
+}

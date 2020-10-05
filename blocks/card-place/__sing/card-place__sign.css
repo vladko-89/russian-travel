@@ -1,0 +1,18 @@
+.card-place__sign {
+  margin: 0;
+  margin-bottom: 12px;
+  display: block;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1;
+  font-weight: 400;
+  color: #aaaaaa;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 767px) {
+  .card-place__sign {
+    display: none;
+  }
+}

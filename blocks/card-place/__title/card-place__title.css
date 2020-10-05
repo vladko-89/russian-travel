@@ -1,0 +1,32 @@
+.card-place__title {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 4.5rem;
+  line-height: 1.055;
+  font-weight: 900;
+  color: #ffffff;
+  grid-area: title;
+}
+
+@media screen and (max-width: 1279px) {
+  .card-place__title {
+    line-height: 76px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .card-place__title {
+    width: 94%;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-place__title {
+    max-width: 288px;
+    margin: 0 auto 2rem;
+    font-size: 2rem;
+    line-height: 35px;
+  }
+}

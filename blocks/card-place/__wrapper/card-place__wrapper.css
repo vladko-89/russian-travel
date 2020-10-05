@@ -1,0 +1,10 @@
+.card-place__wrapper {
+  grid-area: text;
+}
+
+@media screen and (max-width: 767px) {
+  .card-place__wrapper {
+    margin: 0 auto;
+    width: 88.1%;
+  }
+}

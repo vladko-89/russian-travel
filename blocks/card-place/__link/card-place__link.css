@@ -1,0 +1,18 @@
+.card-place__link {
+  margin-bottom: 48px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.card-place__link:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .card-place__link {
+    display: none;
+  }
+}

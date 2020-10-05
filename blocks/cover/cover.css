@@ -1,0 +1,46 @@
+.cover {
+  position: relative;
+  max-width: 1184px;
+  min-height: 740px;
+  margin: 0 auto;
+  margin-bottom: 92px;
+  display: flex;
+  background-image: url(../../img/cover.jpg);
+  background-size: 100% 100%;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2a2f2c;
+  opacity: 0.3;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    margin-bottom: 85px;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 3.5rem;
+  }
+}

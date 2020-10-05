@@ -1,0 +1,29 @@
+.card-place {
+  /* display: flex;
+  justify-content: space-between;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "title web"
+    "img text";
+  column-gap: 20px;
+  row-gap: 48px;
+}
+
+@media screen and (max-width: 1279px) {
+  .card-place {
+    column-gap: 25px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .card-place {
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-place {
+    display: block;
+  }
+}

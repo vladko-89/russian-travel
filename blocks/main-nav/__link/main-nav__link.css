@@ -1,0 +1,16 @@
+.main-nav__link {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .main-nav__link {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+}

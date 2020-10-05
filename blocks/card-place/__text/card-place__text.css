@@ -1,0 +1,26 @@
+.card-place__text {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.63;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.card-place__text:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .card-place__text {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-place__text {
+    max-width: 288px;
+    margin: 0 auto 24px;
+  }
+}

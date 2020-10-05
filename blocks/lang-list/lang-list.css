@@ -1,0 +1,14 @@
+.lang-list {
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  align-self: center;
+  display: flex;
+  list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+  .lang-list {
+    margin-top: 5px;
+  }
+}
