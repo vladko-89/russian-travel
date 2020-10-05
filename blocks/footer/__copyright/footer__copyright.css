@@ -6,3 +6,9 @@
   font-weight: 400;
   color: #ffffff;
 }
+
+@media screen and (max-width: 1279px) {
+  .footer__copyright {
+    max-height: 16px;
+  }
+}

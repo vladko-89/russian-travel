@@ -5,8 +5,29 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1279px) {
   .footer {
+    width: 90.65%;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    width: 93.76%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .footer {
+    width: 43%;
     display: block;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    width: 90%;
   }
 }

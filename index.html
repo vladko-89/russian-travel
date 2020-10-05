@@ -23,8 +23,8 @@
   </header>
   <main class="main-index">
     <section class="lead">
-      <h1 class="main-title">Путешествия по России</h1>
-      <p class="main-subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+      <h1 class="lead__title">Путешествия по России</h1>
+      <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
       <img src="./img/lead-polka.jpg" alt="Изображение: Виды из окна поезда" class="lead__illustration">
       <p class="lead__caption">ваша полка — верхняя</p>
     </section>
@@ -55,8 +55,7 @@
         </li>
       </ul>
     </section>
-    <section class="photo-grid">
-      <h2 class="vissually-hidden">Фотоотчет путешествия на Байкал</h2>
+    <section class="photo-grid" aria-label="Блок: Фотоотчет путешествия на Байкал">
       <ul class="photo-grid__list">
         <li class="photo-grid__item">
           <img src="./img/grid__item_1.jpg" alt="Илюстрация №1" class="photo-grid__image">
@@ -96,8 +95,7 @@
         </li>
       </ul>
     </section>
-    <section class="places">
-      <h2 class="vissually-hidden">Наиболее запомнившиеся места</h2>
+    <section class="places" aria-label="Блок: Наиболее запомнившиеся места">
       <ul class="places__list">
         <li class="places__item">
           <article class="card-place">
@@ -105,7 +103,7 @@
             <img src="./img/place__kosa.jpg" alt="Илюстрация к месту Куршская коса" class="card-place__image">
             <p class="card-place__website">
               <span class="card-place__sign">url</span>
-              <a href="https://park-kosa.ru" class="card-place__link">park-kosa.ru</a>
+              <a href="https://park-kosa.ru" class="card-place__link" target="_blank">park-kosa.ru</a>
             </p>
             <div class="card-place__wrapper">
               <p class="card-place__text">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
@@ -124,8 +122,8 @@
             <img src="./img/place__kolsky.jpg" alt="Иллюстрация к месту Кольский" class="card-place__image">
             <p class="card-place__website">
               <span class="card-place__sign">url</span>
-              <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-                class="card-place__link">National Geographic</a>
+              <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="card-place__link"
+                target="_blank">National Geographic</a>
             </p>
             <div class="card-place__wrapper">
               <p class="card-place__text">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от
@@ -144,8 +142,8 @@
             <img src="./img/place__altai.jpg" alt="Иллюстрация к месту Алтай" class="card-place__image">
             <p class="card-place__website">
               <span class="card-place__sign">url</span>
-              <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-                class="card-place__link">Facebook</a>
+              <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="card-place__link"
+                target="_blank">Facebook</a>
             </p>
             <div class="card-place__wrapper">
               <p class="card-place__text">Алтай — одно из красивейших мест в России.
@@ -164,7 +162,7 @@
             <img src="./img/place__baikal.jpg" alt="Иллюстрация к месту Зимний байкал" class="card-place__image">
             <p class="card-place__website">
               <span class="card-place__sign">url</span>
-              <a href="https://vk.com/baikalmile" class="card-place__link">https://vk.com/baikalmile</a>
+              <a href="https://vk.com/baikalmile" class="card-place__link" target="_blank">https://vk.com/baikalmile</a>
             </p>
             <div class="card-place__wrapper">
               <p class="card-place__text">Всем известен Байкал как крупнейшее озеро
@@ -183,7 +181,7 @@
             <img src="./img/place__kareliya.jpg" alt="Иллюстрация к месту Карелия" class="card-place__image">
             <p class="card-place__website">
               <span class="card-place__sign">url</span>
-              <a href="http://vodlozero.ru" class="card-place__link">http://vodlozero.ru/</a>
+              <a href="http://vodlozero.ru" class="card-place__link" target="_blank">http://vodlozero.ru/</a>
             </p>
             <div class="card-place__wrapper">
               <p class="card-place__text">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
@@ -198,7 +196,7 @@
       </ul>
     </section>
     <section class="cover">
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
         <h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на
           электричках.
@@ -210,19 +208,19 @@
     <nav class="main-nav">
       <ul class="main-nav__list">
         <li class="main-nav__item">
-          <a href="https://yandex.ru.maps" class="main-nav__link">Карты</a>
+          <a href="https://yandex.ru.maps" class="main-nav__link" target="_blank">Карты</a>
         </li>
         <li class="main-nav__item">
-          <a href="https://yandex.ru.maps" class="main-nav__link">Погода</a>
+          <a href="https://yandex.ru.maps" class="main-nav__link" target="_blank">Погода</a>
         </li>
         <li class="main-nav__item">
-          <a href="https://rasp.yandex.ru" class="main-nav__link">Расписание</a>
+          <a href="https://rasp.yandex.ru" class="main-nav__link" target="_blank">Расписание</a>
         </li>
         <li class="main-nav__item">
-          <a href="https://calendar.yandex.ru" class="main-nav__link">Календарь</a>
+          <a href="https://calendar.yandex.ru" class="main-nav__link" target="_blank">Календарь</a>
         </li>
         <li class="main-nav__item">
-          <a href="https://travel.yandex.ru" class="main-nav__link">Путешествия</a>
+          <a href="https://travel.yandex.ru" class="main-nav__link" target="_blank">Путешествия</a>
         </li>
       </ul>
     </nav>

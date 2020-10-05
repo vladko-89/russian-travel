@@ -1,5 +1,4 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/vissually-hidden.css);
 @import url(../fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
@@ -9,8 +8,8 @@
 @import url(../blocks/lang-list/__link/lang-list__link.css);
 @import url(../blocks/lang-list/__link/_current/lang-list__link_current.css);
 @import url(../blocks/lead/lead.css);
-@import url(../blocks/main-title/main-title.css);
-@import url(../blocks/main-subtitle/main-subtitle.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__illustration/lead__illustration.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/intro/intro.css);
@@ -32,12 +31,11 @@
 @import url(../blocks/card-place/__image/card-place__image.css);
 @import url(../blocks/card-place/__website/card-place__website.css);
 @import url(../blocks/card-place/__wrapper/card-place__wrapper.css);
-@import url(../blocks/card-place/__sing/card-place__sign.css);
+@import url(../blocks/card-place/__sign/card-place__sign.css);
 @import url(../blocks/card-place/__link/card-place__link.css);
 @import url(../blocks/card-place/__text/card-place__text.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
-@import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/footer/footer.css);

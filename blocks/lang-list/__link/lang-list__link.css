@@ -7,6 +7,11 @@
   text-decoration: none;
 }
 
+.lang-list__link:hover,
+.lang-list__link:focus {
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 767px) {
   .lang-list__link {
     font-size: 18px;

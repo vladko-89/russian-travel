@@ -13,16 +13,12 @@
 @media screen and (max-width: 1279px) {
   .cover__subtitle {
     width: 34.5%;
-    font-size: 18px;
-    line-height: 22px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__subtitle {
     width: 50%;
-    font-size: 18px;
-    line-height: 22px;
   }
 }
 

@@ -1,3 +1,9 @@
 .lang-list__link_current {
   text-decoration: underline;
 }
+
+.lang-list__link_current:hover,
+.lang-list__link_current:focus {
+  text-decoration: underline;
+  opacity: 1;
+}

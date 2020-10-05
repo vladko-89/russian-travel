@@ -7,8 +7,10 @@
   color: #ffffff;
 }
 
-.card-place__link:hover {
+.card-place__link:hover,
+.card-place__link:focus {
   cursor: pointer;
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 767px) {

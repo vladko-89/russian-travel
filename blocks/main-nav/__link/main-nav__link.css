@@ -7,9 +7,20 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 767px) {
+.main-nav__link:hover,
+.main-nav__link:focus {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1279px) {
   .main-nav__link {
     display: block;
+    max-height: 18px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .main-nav__link {
     font-size: 1.5rem;
     line-height: 1;
   }
