@@ -1,6 +1,6 @@
 # Проект 3: Путешествие по России
 
-[Ссылка на проект на Git hub]: https://vladko-89.github.io/russian-travel/
+[Ссылка] https://vladko-89.github.io/russian-travel/
 
 [Автор]: Уханов Владислав
 
